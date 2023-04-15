@@ -51,13 +51,13 @@ body {
           transform: translateX(-50%);
   width: 50px;
   height: 5px;
-  background-color: #10e7f4;
+  background-color: black;
 }
 
 /*header section*/
 .hero_area {
-  height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  height: 120vh;
+  background-image: url(../images/background.jpg);
 }
 
 .sub_page .hero_area {
@@ -80,8 +80,8 @@ body {
 }
 
 .header_section .top_contact-container .tel_container a {
-  color: #ffffff;
-  text-transform: uppercase;
+  color: black;
+  text-transform: Capitalize;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,7 +112,7 @@ body {
 }
 
 .header_section .container-fluid {
-  background-color: #2c2c2c;
+  background-color: darkred;
 }
 
 .header_section .container-fluid {
@@ -128,7 +128,7 @@ body {
   padding: 10px 25px;
   color: #ffffff;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: Capitalize;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -221,18 +221,19 @@ a:focus {
 }
 
 .custom_nav-container .form-inline input {
-  width: 84%;
+  width: 70%;
   border: none;
   outline: none;
   padding: 4px;
   padding-left: 15px;
-  text-transform: uppercase;
+  text-transform: Capitalize;
   height: 35px;
-  background-color: #ffffff;
+  background-color: yellow;
 }
 
 .custom_nav-container .form-inline button {
-  background-color: #ffffff;
+  background-color: blue;
+  width: 30%
 }
 
 .custom_nav-container .navbar-toggler {
@@ -267,12 +268,12 @@ a:focus {
 
 .slider_section .detail-box h1 span {
   font-size: 4rem;
-  color: #ffffff;
+  color: black;
   font-weight: bold;
 }
 
 .slider_section .detail-box p {
-  color: #ffffff;
+  color: black
 }
 
 .slider_section .detail-box a {
@@ -405,16 +406,17 @@ a:focus {
 }
 
 .feature_section .feature_container .box:hover .img-box {
-  border: 1px solid #10e7f4;
+  border: 1px solid black;
 }
 
 .feature_section .feature_container .box:hover .img-box svg {
-  fill: #10e7f4;
+  fill: black;
 }
 
 .discount_section {
-  background-color: #1e1d1d;
-  color: #ffffff;
+  background-image: url(../images/discount.jpg);
+  background-size: 50% 100%;
+  color: black;
 }
 
 .discount_section .row {
@@ -438,7 +440,7 @@ a:focus {
 }
 
 .discount_section .detail-box h2 span {
-  color: #10e7f4;
+  color: green;
 }
 
 .discount_section .detail-box p {
@@ -448,15 +450,15 @@ a:focus {
 .discount_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #10e7f4;
-  border: 1px solid #10e7f4;
+  background-color: black;
+  border: 1px solid black;
   color: #ffffff;
   margin-top: 35px;
 }
 
 .discount_section .detail-box a:hover {
   background-color: transparent;
-  color: #10e7f4;
+  color: black;
 }
 
 .discount_section .img-box img {
@@ -466,6 +468,7 @@ a:focus {
 .health_section .health_carousel-container {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .health_section a {
@@ -526,7 +529,7 @@ a:focus {
 }
 
 .health_section .box .btn_container a:hover {
-  background-color: #10e7f4;
+  background-color: black;
   color: #ffffff;
   border-color: transparent;
 }
@@ -553,7 +556,7 @@ a:focus {
 }
 
 .health_section .box .detail-box .text h6 {
-  text-transform: uppercase;
+  text-transform: Capitalize;
 }
 
 .health_section .box .detail-box .text h6.price {
@@ -562,7 +565,7 @@ a:focus {
 }
 
 .health_section .box .detail-box .text h6.price span {
-  color: #10e7f4;
+  color: black;
 }
 
 .health_section .owl-carousel .owl-nav.disabled {
@@ -581,7 +584,7 @@ a:focus {
 }
 
 .health_section .owl-carousel .owl-nav.disabled > div:hover {
-  background-color: #10e7f4;
+  background-color: black;
 }
 
 .health_section .owl-carousel .owl-nav.disabled .owl-prev {
@@ -673,7 +676,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #2deaf5;
+  color: black;
 }
 
 .client_section .client_container .client_box .name h6 img {
@@ -692,7 +695,7 @@ a:focus {
   width: 20px;
   height: 20px;
   opacity: 1;
-  background-color: #10e7f4;
+  background-color: black;
   border-radius: 100%;
   position: relative;
 }
@@ -780,7 +783,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #121111;
+  background-color: darkred;
   color: #ffffff;
 }
 
@@ -816,14 +819,14 @@ a:focus {
 .info_section .info_news form button {
   display: inline-block;
   padding: 7px 60px;
-  background-color: #10e7f4;
-  border: 1px solid #10e7f4;
+  background-color: black;
+  border: 1px solid black;
   color: #ffffff;
 }
 
 .info_section .info_news form button:hover {
   background-color: transparent;
-  color: #10e7f4;
+  color: black;
 }
 
 /* footer section*/

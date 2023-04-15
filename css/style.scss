@@ -3,7 +3,8 @@ $cream: #f2d8b9;
 $blue: #f2d8b9;
 $white: #ffffff;
 $black: #000000;
-$primary: #10e7f4;
+$primary: black;
+$red: red;
 
 @mixin main-font {
   font-family: "Poppins", sans-serif;
@@ -286,17 +287,17 @@ a:focus {
 
       span {
         font-size: 4rem;
-        color: $white;
+        color: $black;
         font-weight: bold;
       }
     }
 
     p {
-      color: $white;
+      color: $black;
     }
 
     a {
-      @include hero_btn(#2c2c2c, $white, 10px, 45px);
+      @include hero_btn(#2c2c2c, $black, 10px, 45px);
       margin-top: 35px;
       margin-bottom: 45px;
     }
@@ -533,7 +534,7 @@ a:focus {
             margin-left: 15px;
 
             span {
-              color: $primary;
+              color: $black;
             }
           }
         }
@@ -555,7 +556,7 @@ a:focus {
       background-repeat: no-repeat;
 
       &:hover {
-        background-color: $primary;
+        background-color: black;
       }
     }
 
@@ -598,7 +599,7 @@ a:focus {
 
     .detail-box {
       a {
-        @include hero_btn(#2c2c2c, $white, 10px, 45px);
+        @include hero_btn(#2c2c2c, $black, 10px, 45px);
         margin-top: 35px;
       }
     }
@@ -637,7 +638,7 @@ a:focus {
           display: flex;
           flex-direction: column;
           align-items: center;
-          color: #2deaf5;
+          color: black;
 
           img {
             margin-top: 5px;
@@ -726,7 +727,7 @@ a:focus {
 
   .detail-box {
     background-image: url(../images/contact-bg.jpg);
-    color: $white;
+    color: $black;
     padding: 140px 15%;
     text-align: center;
     margin-top: 30px;
