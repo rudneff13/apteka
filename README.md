@@ -1,3 +1,3 @@
 # apteka
 
-Alternative design for the drugstore network.
+Alternative design for the pharmacy network.
